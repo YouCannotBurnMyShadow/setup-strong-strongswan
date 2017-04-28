@@ -10,6 +10,7 @@ This script doesn't need a domain or specific public IP to work.
 ```
 curl -L -O https://raw.github.com/philplckthun/setup-strong-strongswan/master/setup.sh
 chmod +x setup.sh
+apt-get install build-essential python python3 libssl-dev xl2tpd xmlto ipsec-tools
 sudo ./setup.sh
 ```
 
